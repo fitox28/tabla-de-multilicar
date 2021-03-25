@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Tabla de multiplicar</title>
+</head>
+<body>
+    <h1>Programa creado para calcular tabla de multiplicar</h1><br />
+    <br />
+    <br />
+
+    <script>
+
+
+        function tabla() {
+
+            var n = prompt("Ingrese un numero del 1 al 100:");
+            document.write("El numero ingresado anterior mente es: " + n + "<br>")
+            document.write("-----------------------------------------------------------------<br>")
+
+
+            for (var i = 1; i <= 100; i++) {
+
+                document.write(i + " x " + n + "<br>")
+
+            }
+        }
+    </script>
+    <header>
+        <p onclick="tabla()">Pulsa aqui para ingresar numero a calcular</p>
+    </header>
+    
+    
+
+
+</body>
+</html>
